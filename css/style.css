@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "alegreya";
+  src: url("./fonts/alegreyasanssc-black-webfont.woff2") format("woff2"),
+    url("./fonts/alegreyasanssc-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  /*font: 16px / 1.42 "Roboto", Arial , sans-serif;*/
+  font-size: 16px;
+  line-height: 1.42;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #212121;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hero {
+  height: 100vh;
+  min-height: 650px;
+  /*background: url('../img/bg/hero.jpg') center center / cover no-repeat;*/
+  background-image: url(../img/bg/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mail {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+}
+.mail__title {
+  margin-bottom: 4px;
+}
+.mail__content {
+  background: #212121;
+  color: #ffbc2f;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+.fade-slider {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  height: 72%;
+}
+.fade-slider__item {
+  background: url("../img/content/hero/slider_pic_1.png") center center /
+    contain no-repeat;
+  height: 100%;
+}
+.lined-text {
+  font-family: "alegreya", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 63px;
+  color: #fff;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.lined-text__word {
+  background: #212121;
+  padding: 0 17px 8px;
+}
+
+/*https://www.youtube.com/watch?v=SdILWnuiMOY*/
+
+{
+"is_active": true,
+"links": [
+         {
+         "visible": false,
+         "image": "string",
+         "message": "string",
+         "name": "string"
+         }
+]
+}
+{
+"is_active": true,
+"socials": [
+         {
+         "image": "string",
+         "message": "string"
+         }
+]
+}
+
+{
+"id": 10,
+"is_active": true,
+"social": [
+        {
+        "image": "sites/image-1677594968454641.webp",
+        "message": "test"
+        }
+]
+}
